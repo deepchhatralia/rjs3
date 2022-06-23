@@ -16,7 +16,7 @@ const Banner = () => {
 
             <Button href='#exercises' variant="contained" color="error">Explore</Button>
 
-            <Typography mt="20px" mb="20px" color="#FF2625" fontWeight="800" sx={{ opacity: "0.1", fontSize: { lg: "124px", md: "100px", xs: "40px" } }}>Exercises</Typography>
+            <Typography mt="20px" mb="20px" color="#FF2625" fontWeight="800" sx={{ opacity: "0.1", fontSize: { lg: "150px", md: "120px", xs: "50px" } }}>Exercises</Typography>
         </Box>
     )
 }
