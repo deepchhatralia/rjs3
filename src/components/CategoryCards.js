@@ -1,16 +1,10 @@
 import React, { useState } from 'react'
 
-import { Box, Paper, Typography, Stack } from '@mui/material'
-import { ScrollMenu } from 'react-horizontal-scrolling-menu';
-
-import { fetchData, exerciseOptions } from '../utils/fetchData';
+import { Typography, Stack } from '@mui/material'
 
 import GymCatgeoryIcon from '../assets/icons/gym.png';
 
 const CategoryCards = ({ category, selectedCategory, handleCategoryClick }) => {
-    const [categoryExercise, setCategoryExercise] = useState([]);
-
-
     return (
         <Stack
             type="button"

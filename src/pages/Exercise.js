@@ -24,7 +24,7 @@ const Exercise = () => {
             })
         }
         loadExercise();
-    }, [])
+    }, [id])
 
     return <>
         <ExerciseDetail exercise={exercise} />
